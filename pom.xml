@@ -123,6 +123,7 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
             <version>${spring-framework.version}</version>
+            <!--这个标签表示这个包之存在test周期，表示发布时不包含这个包-->
             <scope>test</scope>
         </dependency>
 
@@ -131,6 +132,7 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.11</version>
+            <!--这个标签表示这个包之存在test周期，表示发布时不包含这个包-->
             <scope>test</scope>
         </dependency>
 
